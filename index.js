@@ -18,7 +18,7 @@ var songSchema = mongoose.Schema({
 });
 
 
-console.log("the value for times: " + test);
+// console.log("the value for times: " + test);
 var Song = mongoose.model('songs', songSchema);
 
 
